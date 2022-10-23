@@ -3,8 +3,11 @@
 IoT Backend Providers are the companies that offer specialized infrastructure and services to support IoT Devices. The
 Internet-facing part of their infrastructure that is responsible to communicate with IoT devices is called IoT Backend.
 
+To learn more about the IoT Backend Providers, characterization of their infrastructure and traffic, check out our [paper](https://dl.acm.org/doi/10.1145/3517745.3561431) appeared at [Internet Measurement Conference (IMC'22)](https://conferences.sigcomm.org/imc/2022/accepted/).
+
 This repository contains the patterns, regular expressions and the source code to extract the domain names and IP
-addresses of studied IoT backends from DNSDB and Censys datasets.
+addresses of studied IoT backends from DNSDB and Censys datasets. 
+
 
 
 ## Patterns and Domains
@@ -14,7 +17,11 @@ The regular expressions and domain patterns are under data/external/top16*.csv
 ## Install
 
 You should have python3.9+ installed
-`python3 -m pip install virtualenv virtualenv venv source venv/bin/activate python3 -m pip install -r requirements.txt python3 setup install`
+`python3 -m pip install virtualenv 
+virtualenv venv 
+source venv/bin/activate
+python3 -m pip install -r requirements.txt 
+python3 setup install`
 
 ## Looking up Patterns in DNSDB Dataset
 
