@@ -1,0 +1,3 @@
+INPUT_FILE_PATH=data/external/top16_companies_dnsdb_queries.csv
+OUTPUT_FILE_DIR=data/raw/20220228/dnsdb_results
+DNSDB_API_KEY=<ADD_YOUR_DNSDB_API_KEY_HERE>

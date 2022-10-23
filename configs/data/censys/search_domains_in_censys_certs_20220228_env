@@ -1,0 +1,4 @@
+NUM_PROCESSES=100
+INPUT_FILE_PATH=data/raw/censys_universal_dataset/censys_universal_20220228/
+OUTPUT_FILE_PATH=data/interim/censys_certs/censys_company_certs_with_domains_20220228.json.gzip
+CENSYS_DOMAIN_LIST_PATH=data/external/top16_companies_censys_queries.csv
