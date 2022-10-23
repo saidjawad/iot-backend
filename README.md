@@ -17,12 +17,12 @@ The regular expressions and domain patterns are under data/external/top16*.csv
 ## Install
 
 You should have python3.9+ installed
-`
+
     python3 -m pip install virtualenv 
     virtualenv venv 
     source venv/bin/activate
     python3 -m pip install -r requirements.txt 
-    python3 setup install`
+    python3 setup install
 
 ## Looking up Patterns in DNSDB Dataset
 
